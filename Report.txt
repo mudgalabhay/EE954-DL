@@ -1,0 +1,87 @@
+Report: Fashion MNIST Dataset Preprocessing
+
+Introduction
+
+This report details the preprocessing steps for the Fashion MNIST dataset, including downloading, splitting into training, validation, and testing sets, and normalizing the images.
+
+Question 1 : 
+
+Part 1: Importing Libraries and Reading Dataset
+
+The initial step involves importing the necessary libraries and reading the Fashion MNIST dataset.
+
+Part 2: Data Normalization
+
+Next, the pixel values of the images are normalized by scaling them to a range between 0 and 1.
+
+Part 3: Splitting the Dataset
+
+The dataset is split into training, validation, and testing sets.
+
+This  outlines the process of preprocessing the Fashion MNIST dataset, including normalization and splitting into training, validation, and testing sets. The normalized data is ready to be used for training and evaluating machine learning models.
+
+--------------------------------------------------------------------------------------------------
+Question 2 : : Multilayer Perceptron (MLP) Implementation
+Introduction
+
+This report describes the implementation of a Multilayer Perceptron (MLP) for classification tasks on the Fashion MNIST dataset. The architecture, forward and backward passes, cross-entropy loss function, and training process are discussed.
+
+
+Part 1: MLP Implementation
+
+Architecture
+
+The MLP consists of an input layer, a hidden layer with ReLU activation, and an output layer.
+
+
+Forward Pass
+
+The forward pass computes the output of the network by applying linear transformations and ReLU activation functions.
+Backward Pass
+
+The backward pass updates the weights and biases using gradient descent and backpropagation.
+Cross Entropy Loss
+
+The cross-entropy loss function is used to compute the loss between predicted and actual labels.
+
+Part 2: Training and Evaluation
+
+The model is trained using mini-batch gradient descent for a specified number of epochs.
+
+Part 3: Validation and Testing
+
+The model's performance is evaluated on the validation and test sets.
+
+----------------------------------------------------------------------------------
+
+Question 3 : Convolutional Neural Network (CNN) Implementation
+Introduction
+
+This report details the implementation of a Convolutional Neural Network (CNN) backbone model using PyTorch for classification tasks on the Fashion MNIST dataset. The architecture, training process, and experimentation with different hyperparameters are discussed.
+Part 1: CNN Model Architecture
+Architecture
+
+The CNN model consists of five convolutional layers followed by ReLU activations and max-pooling layers, followed by fully connected layers.
+
+Experimentation with Hyperparameters
+
+Different kernel sizes, number of kernels in each layer, and weight initialization methods are experimented with to optimize the model's performance.
+Part 2: Training and Testing
+Training
+
+The model is trained using mini-batch gradient descent for a specified number of epochs.
+
+Testing
+
+The model's performance is evaluated on the test set.
+
+Part 3: Experimentation with Hyperparameters
+Kernel Size and Number of Kernels
+
+Different kernel sizes and numbers of kernels in each layer are experimented with to observe their impact on model performance.
+Weight Initialization Methods
+
+Various weight initialization methods, including random, Xavier, and He initialization, are tested to observe their effect on convergence and performance.
+Conclusion
+
+This report outlines the implementation of a CNN backbone model for classification tasks on the Fashion MNIST dataset. The model's architecture, training process, and experimentation with different hyperparameters are discussed. Further experimentation with hyperparameters and architecture may lead to improved performance.
